@@ -8,7 +8,7 @@
 
 ---
 ## Project 1 系統架構方塊圖
-```mermaid
+```markdown
 ![Project 1 breakdown](./project1_diagram/Breakdown.drawio.png)
 ```
 ---
