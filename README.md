@@ -12,8 +12,6 @@
 ![Project 1 breakdown](./Project1_diagram/Breakdown.drawio.png)
 
 
-```
-
 ---
 
 ## 模組設計說明與程式碼解析 (Module Specifications)
