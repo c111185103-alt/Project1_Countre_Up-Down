@@ -9,35 +9,8 @@
 ---
 ## Project 1 系統架構方塊圖
 ```mermaid
-![Project 1 breakdown](./project1__diagram/Breakdown.drawio.png)
-```
----
+![Project 1 breakdown](./project1_diagram/Breakdown.drawio.png)
 
-## 硬體架構圖 (Block Diagram)
-
-```mermaid
-flowchart TD
-    %% 外部輸入訊號
-    clk([外部時脈 clk])
-    rst([外部非同步重置 rst])
-    up_down[方向控制 up_down<br/>'1': 上數 / '0': 下數]
-
-    subgraph counter_09_90 [核心計數器模組]
-        %% 內部邏輯
-        direction TB
-        FSM_Logic{"邊界判定與控制組合邏輯<br/>(Boundary Check Logic)"}
-        Register[["4-bit 暫存器<br/>cnt_reg (unsigned)"]]
-        Convert["型態轉換<br/>std_logic_vector()"]
-        
-        FSM_Logic -->|計算新值| Register
-        Register --> Convert
-    end
-
-    %% 連線關係
-    clk ---> FSM_Logic
-    rst ---> FSM_Logic
-    up_down ---> FSM_Logic
-    Convert ---> count_out([頂層輸出端口 count_out 4-bit])
 
 ```
 
