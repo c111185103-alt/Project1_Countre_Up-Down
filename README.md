@@ -14,7 +14,7 @@
 
 ![Project 1 FSM](./Project1_diagram/FSM.drawio.png)
 
-![Project 1 Time Spec](./Project1_diagram/TimeSpec.drawio.png)
+![Project 1 Time Spec](./Project1_diagram/Time Spec.drawio.png)
 
 ![Project 1 AOV](./Project1_diagram/AOV.drawio.png)
 
