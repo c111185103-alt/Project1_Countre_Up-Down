@@ -10,6 +10,14 @@
 ## Project 1 系統架構方塊圖
 ![Project 1 breakdown](./Project1_diagram/Breakdown.drawio.png)
 
+![Project 1 系統方塊圖](./Project1_diagram/方塊圖_電路圖.drawio.png)
+
+![Project 1 FSM](./Project1_diagram/FSM.drawio.png)
+
+![Project 1 Time Spec](./Project1_diagram/TimeSpec.drawio.png)
+
+![Project 1 AOV](./Project1_diagram/AOV.drawio.png)
+
 ---
 
 ## 模組設計說明與程式碼解析 (Module Specifications)
@@ -42,7 +50,7 @@
 
 本項目完整比對了 **Behavioral Simulation（功能模擬）** 與 **Post-Implementation Simulation（實體佈線後時序模擬）**，成功觀測到真實數位電路中的物理特性。
 
-### 理想世界（功能模擬）vs. 真實物理（時序模擬）
+### 軟體模擬vs.繞線後模擬
 
 透過 Vivado 模擬波形的精確比對（如圖所示），可以清晰看出兩者的決定性差異：
 
