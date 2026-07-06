@@ -8,7 +8,9 @@
 
 ---
 ## Project 1 系統架構方塊圖
+```mermaid
 ![Project 1 breakdown](./project1_diagram/Breakdown.drawio.png)
+```
 ---
 
 ## 硬體架構圖 (Block Diagram)
