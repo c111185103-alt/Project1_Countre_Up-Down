@@ -9,13 +9,13 @@
 ---
 ## Project 1 系統架構方塊圖
 ![Project 1 breakdown](./Project1_diagram/Breakdown.drawio.png)
-
+## Project 1 系統方塊圖/電路圖
 ![Project 1 系統方塊圖](./Project1_diagram/方塊圖_電路圖.drawio.png)
-
+## Project 1 FSM
 ![Project 1 FSM](./Project1_diagram/FSM.drawio.png)
-
-![Project 1 Time Spec](./Project1_diagram/Time Spec.drawio.png)
-
+## Project 1 Time Spec
+![Project 1 Time Spec](./Project1_diagram/TimeSpec.drawio.png)
+## Project 1 AOV
 ![Project 1 AOV](./Project1_diagram/AOV.drawio.png)
 
 ---
