@@ -8,7 +8,7 @@
 
 ---
 ## Project 1 系統架構方塊圖
-![Project 1 breakdown](images/project4_block_diagram.png)
+![Project 1 breakdown](Breakdown.drawio.png)
 ---
 
 ## 硬體架構圖 (Block Diagram)
