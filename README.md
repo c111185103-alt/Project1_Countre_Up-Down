@@ -41,9 +41,9 @@
 
 ---
 
-## 4. 測試平台與模擬行為流程 (Testbench & Simulation Flow)
+## 4. 模擬行為流程 (Simulation Flow)
 
-為驗證硬體邏輯與極限邊界的正確性，測試平台（`tb_counter_09_90.vhd`）規劃了完整的生命週期驗證。下圖為該行為在時間軸上的運作節點（Activity-on-Node, AoV）：
+為驗證硬體邏輯與極限邊界的正確性，測試平台（`tb_counter_09_90.vhd`）規劃了完整的生命週期驗證。下圖為該行為在時間軸上的運作節點（Active on Vertex）：
 
 ![Project 1 模擬流程 AoV 圖](./Project1_diagram/AOV.drawio.png)
 
